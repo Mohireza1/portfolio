@@ -1,20 +1,20 @@
 import Section from "../components/Section";
 
 // About
-import about from "../assets/section-icons/about.png";
-import aboutClr from "../assets/section-icons/about_color.png";
+import about from "../assets/section-icons/about.webp";
+import aboutClr from "../assets/section-icons/about_color.webp";
 
 // Front
-import front from "../assets/section-icons/front.png";
-import frontClr from "../assets/section-icons/front_color.png";
+import front from "../assets/section-icons/front.webp";
+import frontClr from "../assets/section-icons/front_color.webp";
 
 // AI
-import ai from "../assets/section-icons/ai.png";
-import aiClr from "../assets/section-icons/ai_color.png";
+import ai from "../assets/section-icons/ai.webp";
+import aiClr from "../assets/section-icons/ai_color.webp";
 
 // Hardware
-import hardware from "../assets/section-icons/hardware.png";
-import hardwareClr from "../assets/section-icons/hardware_color.png";
+import hardware from "../assets/section-icons/hardware.webp";
+import hardwareClr from "../assets/section-icons/hardware_color.webp";
 
 const App = () => {
   return (
