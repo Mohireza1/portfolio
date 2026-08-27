@@ -50,7 +50,7 @@ const App = () => {
               stroke="currentColor"
               stroke-miterlimit="10"
               stroke-width="16px"
-              className="group-hover:fill-white"
+              className="group-hover:fill-white group-active:fill-white"
             />
             <path
               d="M176 262.62 256 342l80-79.38M256 330.97V170"
@@ -59,7 +59,7 @@ const App = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="16px"
-              className="group-hover:stroke-gray-600"
+              className="group-hover:stroke-gray-600 group-active:stroke-gray-600"
             />
           </svg>
         </div>

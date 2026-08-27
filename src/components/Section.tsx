@@ -20,7 +20,7 @@ const Section = ({ title, bwSrc, clrSrc }: props) => {
         <img
           src={clrSrc}
           alt="Colored"
-          className="absolute top-0 left-0 w-full h-full object-cover transition-all duration-250 sm:duration-150 ease-linear [clip-path:inset(100%_0_0_0)] group-hover:[clip-path:inset(0)] sm:rounded-tl-xl sm:rounded-br-xl"
+          className="absolute top-0 left-0 w-full h-full object-cover transition-all duration-75 sm:duration-150 ease-linear [clip-path:inset(100%_0_0_0)] group-hover:[clip-path:inset(0)] group-active:[clip-path:inset(0)] sm:rounded-tl-xl sm:rounded-br-xl"
         />
       </div>
       <h2 className="invisible text-center font-medium text-sm sm:text-lg mt-1 sm:mt-6 animate-blocking-2">

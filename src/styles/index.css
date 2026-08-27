@@ -3,7 +3,14 @@
 @import "tailwindcss";
 
 @theme {
+    /* Breakpoints */
+
+    --breakpoint-xs: 400px;
+
+    /* Fonts */
     --font-roboto-mono: "Roboto Mono", monospace;
+
+    /* Animations */
 
     --animate-gap-open: gap-open 0.8s 1s ease-in-out forwards;
 
@@ -15,7 +22,7 @@
         }
 
         100% {
-            gap: 12px;
+            gap: 20px;
             scale: 1
         }
     }
@@ -37,9 +44,9 @@
 
     /* ... your gap-open animation ... */
 
-    --animate-blocking: blocking 0.250s 1.9s ease-in forwards;
+    --animate-blocking-2: blocking-2 0.250s 1.9s ease-in forwards;
 
-    @keyframes blocking {
+    @keyframes blocking-2 {
         0% {
             opacity: 0;
             visibility: hidden;
@@ -51,6 +58,34 @@
         }
     }
 
+    --animate-blocking-1: blocking-1 0.250s 1.3s ease-in forwards;
+
+    @keyframes blocking-1 {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        100% {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+
+    --animate-blocking-3: blocking-3 0.250s 2.6s ease-in forwards;
+
+    @keyframes blocking-3 {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        100% {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
 }
 
 html {
