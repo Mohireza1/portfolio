@@ -30,14 +30,14 @@
         }
 
         100% {
-            gap: 30px;
+            gap: 60px;
             scale: 1
         }
     }
 
     /* ... your gap-open animation ... */
 
-    --animate-blocking: blocking 0.15s 1.7s ease-out forwards;
+    --animate-blocking: blocking 0.250s 1.9s ease-in forwards;
 
     @keyframes blocking {
         0% {
