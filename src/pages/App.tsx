@@ -59,7 +59,7 @@ const App = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="16px"
-              className="group-hover:stroke-gray-600 group-active:stroke-gray-600"
+              className="group-hover:stroke-gray-700 group-active:stroke-gray-700"
             />
           </svg>
         </div>
