@@ -19,8 +19,8 @@ import hardwareClr from "../assets/section-icons/hardware_color.webp";
 const App = () => {
   return (
     <>
-      <div className="min-h-screen flex items-center">
-        <div className="grid p-2 gap-4 grid-cols-2 ">
+      <div className="min-h-screen flex items-center justify-center w-full">
+        <div className="grid p-4 grid-cols-2 sm:p-20 animate-gap-open scale-20 max-w-150 sm:animate-gap-open-wide">
           <Section title="About Me" bwSrc={about} clrSrc={aboutClr} />
           <Section title="Frontend Projects" bwSrc={front} clrSrc={frontClr} />
           <Section title="DL Projects" bwSrc={ai} clrSrc={aiClr} />

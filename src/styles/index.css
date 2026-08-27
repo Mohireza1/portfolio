@@ -1,1 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+    --font-roboto-mono: "Roboto Mono", monospace;
+
+    --animate-gap-open: gap-open 0.8s 1s ease-in-out forwards;
+
+    @keyframes gap-open {
+
+        0% {
+            gap: 0;
+            scale: 0.2
+        }
+
+        100% {
+            gap: 12px;
+            scale: 1
+        }
+    }
+
+    --animate-gap-open-wide: gap-open-wide 0.8s 1s ease-in-out forwards;
+
+    @keyframes gap-open-wide {
+
+        0% {
+            gap: 0;
+            scale: 0.2
+        }
+
+        100% {
+            gap: 30px;
+            scale: 1
+        }
+    }
+
+    /* ... your gap-open animation ... */
+
+    --animate-blocking: blocking 0.15s 1.7s ease-out forwards;
+
+    @keyframes blocking {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        100% {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    color: #eeeeee;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
